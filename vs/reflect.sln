@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+VisualStudioVersion = 14.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reflect", "reflect.vcxproj", "{79ED69BE-18F5-4774-B403-2FDB9D212A85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test.vcxproj", "{C017C549-E887-410E-A665-1D0613C3AEF6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{79ED69BE-18F5-4774-B403-2FDB9D212A85} = {79ED69BE-18F5-4774-B403-2FDB9D212A85}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79ED69BE-18F5-4774-B403-2FDB9D212A85}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79ED69BE-18F5-4774-B403-2FDB9D212A85}.Debug|Win32.Build.0 = Debug|Win32
+		{79ED69BE-18F5-4774-B403-2FDB9D212A85}.Release|Win32.ActiveCfg = Release|Win32
+		{79ED69BE-18F5-4774-B403-2FDB9D212A85}.Release|Win32.Build.0 = Release|Win32
+		{C017C549-E887-410E-A665-1D0613C3AEF6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C017C549-E887-410E-A665-1D0613C3AEF6}.Debug|Win32.Build.0 = Debug|Win32
+		{C017C549-E887-410E-A665-1D0613C3AEF6}.Release|Win32.ActiveCfg = Release|Win32
+		{C017C549-E887-410E-A665-1D0613C3AEF6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

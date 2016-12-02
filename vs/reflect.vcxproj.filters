@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0002197f-bc3e-45dd-bb33-c6844e1e43bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\reflect">
+      <UniqueIdentifier>{d77d1c6a-bf66-4bc5-9dc3-f8405bf62bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{934ffa56-7bc5-454d-a4c7-9b2c2b3c56f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\reflect\Class.h">
+      <Filter>include\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\reflect\Field.h">
+      <Filter>include\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\reflect\Method.h">
+      <Filter>include\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\reflect\TypeDescriptor.h">
+      <Filter>include\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\reflect\MethodDescriptor.h">
+      <Filter>include\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\reflect\FieldDescriptor.h">
+      <Filter>include\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\reflect\Value.h">
+      <Filter>include\reflect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\MethodDescriptor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FieldDescriptor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Class.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Value.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
